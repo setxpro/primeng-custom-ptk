@@ -1,0 +1,16 @@
+// Importa o tema padrão do PrimeNG
+@import 'primeng/resources/themes/lara-dark-teal/theme.css';
+
+// Personalizações
+:root {
+  --primary-color: #007ad9;  // Cor primária
+  --font-size: 14px;         // Tamanho padrão de fonte
+}
+
+// Estilo customizado para botão PrimeNG
+.p-button {
+  background-color: var(--primary-color);
+  border: none;
+  font-size: var(--font-size);
+  color: #fff;
+}
